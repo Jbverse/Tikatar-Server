@@ -42,3 +42,7 @@ Open the .env file and fill in the missing fields as required for your environme
 ```bash
 python main.py
 ```
+### 7. Databases flow
+when running the app for the first time it will create a file called dev.db
+if you add more table later that that changes will not reflect in the database 
+so you will need to delete the db file and rerun the app agian
