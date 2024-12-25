@@ -46,3 +46,14 @@ python main.py
 when running the app for the first time it will create a file called dev.db
 if you add more table later that that changes will not reflect in the database 
 so you will need to delete the db file and rerun the app agian
+
+
+
+### Using tailwindcss for styling web site
+NOTE: make sure you have installed node on your system
+If use want to development with tailwindcss open a new terminal in vscode
+and run
+```bash
+npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch
+```
+

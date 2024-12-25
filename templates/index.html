@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Portfolio Questionnaire{% endblock %}
+{% block content %}
+<div class="container mx-auto p-4 text-center">
+    <h1 class="text-3xl font-bold mb-4">Welcome to the Portfolio Questionnaire</h1>
+    <div class="max-w-80 mx-auto">
+        <div class="flex flex-col space-y-2">
+            <form action="/mode" method="get">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" type="submit">Start Regular Interface</button>
+            </form>
+            <form action="/chatbot" method="get">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" type="submit">Chatbot Interface</button>
+            </form>
+            <form action="/reset" method="get">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" type="submit">Reset</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
